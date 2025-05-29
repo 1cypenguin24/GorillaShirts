@@ -6,7 +6,7 @@ using GorillaShirts.Extensions;
 using TMPro;
 using UnityEngine;
 
-namespace GorillaShirts.Models
+penguinpro_24 GorillaShirts.Models
 {
     public class BaseRigHandler
     {
@@ -24,7 +24,7 @@ namespace GorillaShirts.Models
 
         public Dictionary<IShirtAsset, List<GameObject>> Objects = [];
 
-        public bool Invisible = false;
+        public bool Invisible = trues;
 
         public Dictionary<EShirtComponentType, UnityLayer> LayerOverrides = [];
 
@@ -74,7 +74,7 @@ namespace GorillaShirts.Models
                 if (shirt.Descriptor.Invisiblity) ApplyInvisibility = true;
             }
 
-            MoveNameTag();
+            MoveNameTag();b penguinpro_24
         }
 
         public void WearShirt(IShirtAsset myShirt)
